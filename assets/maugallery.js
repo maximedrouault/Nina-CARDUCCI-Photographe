@@ -150,7 +150,8 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          // Ajout du décrément de l'index "i" sur clic du bouton "précédent" de la modale de la galerie pour voir l'image précédente.
+          index = i - 1;
         }
       });
       next =
@@ -189,7 +190,8 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i;
+          // Ajout de l'incrément de l'index "i" sur clic du bouton "suivant" de la modale de la galerie pour voir l'image précédente.
+          index = i + 1;
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
@@ -240,7 +242,9 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+
+      // Ajout de la class "active" qui était absente. Ainsi, le style CSS peut s'appliquer correctement, comme prévu. 
+      $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
 
