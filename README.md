@@ -30,10 +30,6 @@ Exemple : structure des titres, contraste des couleurs, absences de textes alter
 
 ![image](https://github.com/maximedrouault/Nina-CARDUCCI-Photographe/assets/119673669/442a1c78-636b-405b-9160-e0e00da3ac56)
 
-##### Et voici le rapport complet de l'audit :
-
-[DROUAULT_Maxime_2_rapport_intervention_032023.pdf](https://github.com/maximedrouault/Nina-CARDUCCI-Photographe/files/11498539/DROUAULT_Maxime_2_rapport_intervention_032023.pdf)
-
 ###### Les compétences et technologies mises en œuvre sur ce projet sont les suivantes :
 
 ![HTML](https://img.shields.io/badge/HTML-%23FFac45.svg?&style=for-the-badge&logo=html5&logoColor=white&color=orange)
